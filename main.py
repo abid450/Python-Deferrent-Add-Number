@@ -1,46 +1,37 @@
 
-# Deffrent Types of Number --------------------
+# Deferent add of Number----------------
 
-num1 = int (input("Enter number 1 : "))
-num2 = int (input("Enter number 2 :"))
-print("Minus Number -----------------")
-num3 = int (input("Enter number 3 :"))
-num4 = int (input("Enter number 4 :"))
-print("Into Number -----------------")
-num5 = int (input("Enter number 5 :"))
-num6 = int (input("Enter number 6 :"))
-print("Devition Number--------------")
-num7 = int (input("Enter number 7 :"))
-num8 = int (input("Enter number 8 :"))
-print("Devided Number --------------")
-num9 = int (input("Enter number 9 :"))
-num10 = int (input("Enter number 10 :"))
+num1 = 20
+num2 = 40
+
+result = 20 + 40
+print ("The Sum is : ",result)
+
+result = 60 - 40
+print ("The Minus is : ",result)
+
+result = 70 * 40
+print ("The into is : ",result)
+
+result = 80 / 40
+print ("The Devition is : ",result)
 
 
-print("----------------------------")
+
+# Deferent add of types number---------------
+
+num1 = int (input("Enter First Number : "))
+num2 = int (input("Enter Second Number : "))
 
 result = num1 + num2
-print("The Sum Number : ",result)
+print ("The Sum is : ",result)
 
-print("------------------------")
+result = num1 - num2
+print ("The Minus is : ",result)
 
-result = num3 - num4
-print("The Minus  Number : ",result)
+result = num1 * num2
+print ("The into is : ",result)
 
-print("--------------------------")
-
-result = num5 * num6
-print("The Into Number : ",result)
-
-print("------------------------")
-
-result = num7 / num8
-print("The Devition Number : ",result)
-
-print("--------------------------")
-
-result = num7 % num8
-print("The Devided Number : ",result)
-
-
+result = num1 / num2
+print ("The Devition is : ",result)
 
